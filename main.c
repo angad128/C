@@ -3,10 +3,12 @@
 
 int main()
 {
-    printf("%s are the best %s ever.\n","You","Hero");
-    printf("I ate %d momos last nigth\n", 9);
-    printf("Value of Pi is roughly %f.",3.1415926535);
-    printf("Value of Pi is roughly %.2f.",3.1415926535);
-    printf("Value of Pi is roughly %.4f.",3.1415926535);
+    int x =10;
+    int y =2;
+    printf("Sum = %d\n",x+y);
+    printf("Dif = %d\n",x-y);
+    printf("Mul = %d\n",x*y);
+    printf("Div = %d\n",x/y);
+    printf("Mod = %d\n",x%y);
     return 0;
 }
